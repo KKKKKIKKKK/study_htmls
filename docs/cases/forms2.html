@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action=../index.html>
+        <div>
+            First Name : <input type="text" name="first" value="jeong" >
+        </div>
+        <h>Valid first name is required.</h>
+        <div>
+            Last Name: <input type="text" name="second" value="Kim" >
+        </div>
+        <h>Valid first name is required.</h>
+        <div></div>
+        <h>Username</h>
+        <div></div>
+        <input type="text" placeholder="username" name="username" >
+        <div>Your name is required.</div>
+        <div>
+            Email(Optional) : <input type="text"placeholder="you@example.com" name="you@example.com">
+        </div>
+        <div>
+            Address: <input type="text" name="1234 Main st"value="서울 구로구">
+        </div>
+        <div>
+            <label for="country">Choose a country:</label>
+
+            <select name="country" id="country">
+                <option value="Choose">Choose</option>
+                <option value="China">China</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Taiwan">Taiwan</option>
+            </select>
+        </div>
+        <div>
+            <label for="state">Choose a state:</label>
+
+            <select name="state" id="state">
+                <option value="Choose">Choose</option>
+                <option value="China">China</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Taiwan">Taiwan</option>
+            </select>
+        </div>
+        <div>
+           Zip : <input type="text" name="zip" value="1234">
+        </div>
+        <h>Zip code required</h>
+        <hr>
+        <div>
+            <input type="checkbox" name="shipping address"checked id="idcheckthird">
+            <label for="idcheckthird"> </label> shipping address is the sama as billing address
+        </div>
+        <div>
+            <input type="checkbox" name="mycheckthird" id="idcheckthird">
+            <label for="idcheckthird"> </label> save this internation for next time
+        </div>
+        <hr>
+        <h3>payment</h3>
+        <div></div>
+        <div>
+            <input type="radio" name="payment" checked value="credit card" id="">credit card
+        </div>
+        <div>
+            <input type="radio" name="payment" value="Debit card" id="">Debit card
+        </div>
+        <div>
+            <input type="radio" name="payment" value="Paypal" id="">Paypal
+        </div>
+        <div>
+            Name on card  <input type="text" name="first"value="mindy"> Full name as displayed on card
+        </div>
+        <div>
+            Credit card number <input type="text" name="first"value="1234"> 
+        </div>
+        <div>
+            Expiration: <input type="date" name="my date" value="2023-05-16">
+        </div>
+        <div>
+            CVV <input type="text" name="first"value="1234"> 
+        </div>
+        <h>security code required</h>
+        <hr>
+        <div>
+            <button type="submit">continue to checkout</button>
+        </div>
+    
+
+    </form>
+</body>
+</html>
