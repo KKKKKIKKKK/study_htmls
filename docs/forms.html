@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,114 +5,105 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms</title>
+    <title>HTML- forms</title>
 </head>
 
 <body>
-    <div>Forms</div>
-    <div>
-        <form action="links.html">
-            <div>
-                <input type="radio" name="fruits" value="apple" id="">사과
-                <input type="radio" name="fruits" value="bannana" id="">바나나
-                <input type="radio" name="fruits"  checked value="strawberry" id="">딸기
-            </div>
-            <div>
-                <label for="cars">Choose a car:</label>
 
-                <select name="cars" id="cars">
-                    <option value="hyundai">Hyundai</option>
-                    <option value="volvo">Volvo</option>
-                    <option value="saab" selected>Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
-                </select>
-            </div>
-            <div>
-                <label for="cars">Choose a car(multiple):</label>
 
-                <select name="cars" id="cars" multiple>
-                    <option value="hyundai">Hyundai</option>
-                    <option value="volvo">Volvo</option>
-                    <option value="saab" selected>Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
-                </select>
-            </div>
-            <div>
-                <button type="submit">Click Me!</button>
-            </div>
-        </form>
-    </div>
-    <hr>
-    <form action="link.html">
+    <form action="index.html">
         <div>
-            <form action="main.html">
-                검색 : <input type="text" name="search">
-                <input type="submit">
-            </form>
+           E-mail: <input type="email" name="myemail" value="cupit2030@gmail.com">
         </div>
-        <hr>
+        <div>   
+            Password: <input type="password" name="mypassword">
+        </div>
+        <div>   
+            Date: <input type="date" name="mydate" value="2023-05-16">
+        </div>
+        <div>   
+            File <input type="file" name="myfile">
+        </div>
+    
         <div>
-            <form action="index.html">
+            <input type="submit">
+        </div>
+    </form>
+        <hr>
+        <form action="links.html">
+        <div>
+            <form action="maim.html">
                 <div>
-                    First Name : <input type="text" name="first">
+                    first name:<input type="text" name="first">
+                </div>
+                <div>contents:</div>
+                <div>
+                    <textarea name="my contents" id="" cols="30" rows="10">입력하는 곳입니다.</textaread>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+
+                    </div>
+                
+                <div>
+                    <input type="submit">
+                </div>
+
+    <div>Forms</div>
+    <form action="index.html">
+        <div>
+           Check First : <input type="checkbox" name="mycheckfirst" checked>
+           Check second : <input type="checkbox" name="mychecksecond">
+           <label for="idcheckthird">Label check third : </label>
+           <input type="checkbox" name="mycheckthird" id="idcheckthird">
+        </div>
+        <div>
+           Hidden first <input type="hidden" name="myhiddenfirst" value="2">
+        </div>
+
+        <div>
+            <input type="submit">
+        </div>
+
+    </form>
+   <hr>
+
+
+    <form action="index.html">
+        <div>
+           E-mail: <input type="email" name="myemail" value="cupit2030@gmail.com">
+        </div>
+        <div>   
+            Password: <input type="password" name="mypassword">
+        </div>
+        <div>   
+            Date: <input type="date" name="mydate" value="2023-05-16">
+        </div>
+        <div>   
+            File <input type="file" name="myfile">
+        </div>
+    
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+        <hr>
+        <form action="links.html">
+        <div>
+            <form action="maim.html">
+                <div>
+                    first name:<input type="text" name="first">
                 </div>
                 <div>
-                    Second Name: <input type="text" name="second">
+                    socond name:<input type="text" name="second">
                 </div>
                 <div>
                     <input type="submit">
                 </div>
-            </form>
-            <hr>
-            <div>
-                <form action="index.html">
-                    <div>
-                        E-mail : <input type="email" name="my email" value="cupit2030@gmail.com">
-                    </div>
-                    <div>
-                        Password : <input type="password" name="my password">
-                    </div>
-                    <div>
-                        Date : <input type="date" name="my date" value="2023-05-16">
-                    </div>
-                    <div>
-                        File : <input type="file" name="my file">
-                    </div>
-                    <div>
-                        <input type="submit">
-                    </div>
-                </form>
-            </div>
-    </form>
-    <hr>
-    <div>
-        <form action="index.html">
-            <div>
-                Check First : <input type="checkbox" name="mycheckfirst" checked>
-                Check Second : <input type="checkbox" name="mychecksecond">
-                <label for="idcheckthird">Label Check third :</label>
-                <input type="checkbox" name="mycheckthird" id="idcheckthird">
-            </div>
-            <div>
-                Hidden First: <input type="hidden" name="myhiddenfirst" value="2">
-            </div>
-            <div>
-                <input type="submit">
-            </div>
-        </form>
-    </div>
-    <hr>
-    <form>
-        <div>
-            First Name : <input type="text" name="first">
+
         </div>
-        <div>
-            <div> Contents : </div>
-            <textarea name="my contents" id="" cols="30" rows="10">입력하는 곳입니다.</textarea>
-            <div>
-                <input type="submit">
-            </form>
+        <hr>
+        <input type="submit">
+
+    </form>
 </body>
+
 </html>
